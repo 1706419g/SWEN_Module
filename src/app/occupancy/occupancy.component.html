@@ -1,0 +1,656 @@
+
+<h1>Room Occupancy Report</h1>
+
+<div class="container">
+
+<div>
+
+  <form action="/report1" method="POST">
+  <table id="table1" >
+    
+      <tr id="one1">
+          <td id="title1"><h5>Daily Report:</h5></td> <br>
+          <td id="button1"><button class="button1">Generate</button></td>
+      </tr>
+      <tr id="one1">
+          <td id="title1"><h5>Weekly Report:</h5></td> <br>
+          <td id="button1"><button class="button1">Generate</button></td>
+      </tr>
+      <tr id="one1">
+          <td id="title1"><h5>Monthly Report:</h5></td> <br>
+          <td id="button1"><button class="button1">Generate</button></td>
+      </tr>
+      <tr id="one1">
+          <td id="title1"><h5>Yearly Report:</h5></td> <br>
+          <td id="button1"><button class="button1">Generate</button></td>
+      </tr>
+  </table>
+
+  </form>
+
+</div>
+</div>
+
+
+
+<body>
+
+    <h2 id="h2">Daily Occupancy Report</h2>
+    <div class="wrap">
+
+    <table id="daily">
+      <tr id="one">
+        <th id="two">Date</th>
+        <th id="two">Guest Full Name</th>
+        <th id="two">Room No.</th>
+        <th id="two">All Guests</th>
+        <th id="two">Total</th>
+      </tr>
+      <tr id="one">
+        <td id="two">01/01/2019</td>
+        <td id="two">John Greyson</td>
+        <td id="two">0001</td>
+        <td id="two">John Greyson <br> Dick Greyson </td>
+        <td id="two">2 </td>
+      </tr>
+      <tr id="one">
+        <td id="two">01/01/2019</td>
+        <td id="two">Ted Mosby</td>
+        <td id="two">0002</td>
+        <td id="two">Ted Mosby <br> Steve Carrel <br> Carren</td>
+        <td id="two">3</td>
+      </tr>
+      <tr id="one">
+        <td id="two">01/01/2019</td>
+        <td id="two">Martha Stuart</td>
+        <td id="two">0003</td>
+        <td id="two">Martha Stuart <br> Ben Tennyson </td>
+        <td id="two">2</td>
+      </tr>
+      <tr id="one">
+        <td id="two">01/01/2019</td>
+        <td id="two">Tao Bennett</td>
+        <td id="two">0004</td>
+        <td id="two">Tao Bennett</td>
+        <td id="two">1</td>
+      </tr>
+      <tr id="one">
+        <td id="two">01/01/2019</td>
+        <td id="two">Yu Tannamuri</td>
+        <td id="two">0005</td>
+        <td id="two">Yu Tannamuri</td>
+        <td id="two">1</td>
+      </tr>
+      <tr id="one">
+        <td id="two">01/01/2019</td>
+        <td id="two">Ross Geller</td>
+        <td id="two">0006</td>
+        <td id="two">Ross Geller <br> Joey Tribbiani <br> Chandler Bing</td>
+        <td id="two">3</td>
+      </tr>
+    </table>
+
+
+
+    <table id="daily2">
+        <tr id="one">
+            <th id="two">Date</th>
+            <th id="two">Guest Full Name</th>
+            <th id="two">Room No.</th>
+            <th id="two">All Guests</th>
+            <th id="two">Total</th>
+        </tr>
+        <tr id="one">
+            <td id="two">01/01/2019</td>
+            <td id="two">Ross Geller</td>
+            <td id="two">0006</td>
+            <td id="two">Ross Geller <br> Joey Tribbiani <br> Chandler Bing</td>
+            <td id="two">3</td>
+          </tr>
+        <tr id="one">
+            <td id="two">01/01/2019</td>
+            <td id="two">Yu Tannamuri</td>
+            <td id="two">0005</td>
+            <td id="two">Yu Tannamuri</td>
+            <td id="two">1</td>
+        </tr>
+        <tr id="one">
+            <td id="two">01/01/2019</td>
+            <td id="two">Tao Bennett</td>
+            <td id="two">0004</td>
+            <td id="two">Tao Bennett</td>
+            <td id="two">1</td>
+          </tr>
+          <tr id="one">
+              <td id="two">01/01/2019</td>
+              <td id="two">Martha Stuart</td>
+              <td id="two">0003</td>
+              <td id="two">Martha Stuart <br> Ben Tennyson </td>
+              <td id="two">2</td>
+            </tr>
+            <tr id="one">
+                <td id="two">01/01/2019</td>
+                <td id="two">Ted Mosby</td>
+                <td id="two">0002</td>
+                <td id="two">Ted Mosby <br> Steve Carrel <br> Carren</td>
+                <td id="two">3</td>
+              </tr>
+              <tr id="one">
+                  <td id="two">01/01/2019</td>
+                  <td id="two">John Greyson</td>
+                  <td id="two">0001</td>
+                  <td id="two">John Greyson <br> Dick Greyson </td>
+                  <td id="two">2 </td>
+                </tr>
+      </table>
+
+      <table id="daily3">
+          <tr id="one">
+              <th id="two">Date</th>
+              <th id="two">Guest Full Name</th>
+              <th id="two">Room No.</th>
+              <th id="two">All Guests</th>
+              <th id="two">Total</th>
+          </tr>
+          <tr id="one">
+              <td id="two">01/01/2019</td>
+              <td id="two">Ross Geller</td>
+              <td id="two">0006</td>
+              <td id="two">Ross Geller <br> Joey Tribbiani <br> Chandler Bing</td>
+              <td id="two">3</td>
+            </tr>
+          <tr id="one">
+              <td id="two">01/01/2019</td>
+              <td id="two">Yu Tannamuri</td>
+              <td id="two">0005</td>
+              <td id="two">Yu Tannamuri</td>
+              <td id="two">1</td>
+          </tr>
+          <tr id="one">
+              <td id="two">01/01/2019</td>
+              <td id="two">Tao Bennett</td>
+              <td id="two">0004</td>
+              <td id="two">Tao Bennett</td>
+              <td id="two">1</td>
+            </tr>
+            <tr id="one">
+                <td id="two">01/01/2019</td>
+                <td id="two">Martha Stuart</td>
+                <td id="two">0003</td>
+                <td id="two">Martha Stuart <br> Ben Tennyson </td>
+                <td id="two">2</td>
+              </tr>
+              <tr id="one">
+                  <td id="two">01/01/2019</td>
+                  <td id="two">Ted Mosby</td>
+                  <td id="two">0002</td>
+                  <td id="two">Ted Mosby <br> Steve Carrel <br> Carren</td>
+                  <td id="two">3</td>
+                </tr>
+                <tr id="one">
+                    <td id="two">01/01/2019</td>
+                    <td id="two">John Greyson</td>
+                    <td id="two">0001</td>
+                    <td id="two">John Greyson <br> Dick Greyson </td>
+                    <td id="two">2 </td>
+                  </tr>
+        </table>
+
+        <table id="daily4">
+            <tr id="one">
+                <th id="two">Date</th>
+                <th id="two">Guest Full Name</th>
+                <th id="two">Room No.</th>
+                <th id="two">All Guests</th>
+                <th id="two">Total</th>
+              </tr>
+              <tr id="one">
+                <td id="two">01/01/2019</td>
+                <td id="two">John Greyson</td>
+                <td id="two">0001</td>
+                <td id="two">John Greyson <br> Dick Greyson </td>
+                <td id="two">2 </td>
+              </tr>
+              <tr id="one">
+                <td id="two">01/01/2019</td>
+                <td id="two">Ted Mosby</td>
+                <td id="two">0002</td>
+                <td id="two">Ted Mosby <br> Steve Carrel <br> Carren</td>
+                <td id="two">3</td>
+              </tr>
+              <tr id="one">
+                <td id="two">01/01/2019</td>
+                <td id="two">Martha Stuart</td>
+                <td id="two">0003</td>
+                <td id="two">Martha Stuart <br> Ben Tennyson </td>
+                <td id="two">2</td>
+              </tr>
+              <tr id="one">
+                <td id="two">01/01/2019</td>
+                <td id="two">Tao Bennett</td>
+                <td id="two">0004</td>
+                <td id="two">Tao Bennett</td>
+                <td id="two">1</td>
+              </tr>
+              <tr id="one">
+                <td id="two">01/01/2019</td>
+                <td id="two">Yu Tannamuri</td>
+                <td id="two">0005</td>
+                <td id="two">Yu Tannamuri</td>
+                <td id="two">1</td>
+              </tr>
+              <tr id="one">
+                <td id="two">01/01/2019</td>
+                <td id="two">Ross Geller</td>
+                <td id="two">0006</td>
+                <td id="two">Ross Geller <br> Joey Tribbiani <br> Chandler Bing</td>
+                <td id="two">3</td>
+              </tr>
+          </table>
+
+        </div>
+
+
+
+
+
+
+<!-- 
+
+        <h2 id="h2">Weekly Occupancy Report</h2>
+
+    
+        <table id="weekly">
+          <tr id="one">
+              <th id="two">Month Jan</th>
+              <th id="two">Guest Full Name</th>
+              <th id="two">Room No.</th>
+              <th id="two">All Guests</th>
+              <th id="two">Total</th>
+          </tr>
+          <tr id="one">
+            <td id="two">Week 1</td>
+            <td id="two">Yu Tao</td>
+            <td id="two">0001</td>
+            <td id="two">cleaning</td>
+            <td id="two">Lobby</td>
+          </tr>
+          <tr id="one">
+            <td id="two">Week 2</td>
+            <td id="two">Yu Tao Chang</td>
+            <td id="two">0002</td>
+            <td id="two">cleaning</td>
+            <td id="two">Lobby</td>
+          </tr>
+          <tr id="one">
+            <td id="two">Week 3</td>
+            <td id="two">Yu Tao Mendel</td>
+            <td id="two">0003</td>
+            <td id="two">cleaning</td>
+            <td id="two">Lobby</td>
+          </tr>
+          <tr id="one">
+            <td id="two">Week 4</td>
+            <td id="two">Yu Tao Bennett</td>
+            <td id="two">0004</td>
+            <td id="two">cleaning</td>
+            <td id="two">Lobby</td>
+          </tr>
+        
+        </table>
+    
+    
+    
+        <table id="weekly2">
+            <tr id="one">
+                <th id="two">Month Feb</th>
+                <th id="two">Guest Full Name</th>
+                <th id="two">Room No.</th>
+                <th id="two">All Guests</th>
+                <th id="two">Total</th>
+              </tr>
+              <tr id="one">
+                <td id="two">Week 1</td>
+                <td id="two">Yu Tao</td>
+                <td id="two">0001</td>
+                <td id="two">cleaning</td>
+                <td id="two">Lobby</td>
+              </tr>
+              <tr id="one">
+                <td id="two">Week 2</td>
+                <td id="two">Yu Tao Chang</td>
+                <td id="two">0002</td>
+                <td id="two">cleaning</td>
+                <td id="two">Lobby</td>
+              </tr>
+              <tr id="one">
+                <td id="two">Week 3</td>
+                <td id="two">Yu Tao Mendel</td>
+                <td id="two">0003</td>
+                <td id="two">cleaning</td>
+                <td id="two">Lobby</td>
+              </tr>
+              <tr id="one">
+                <td id="two">Week 4</td>
+                <td id="two">Yu Tao Bennett</td>
+                <td id="two">0004</td>
+                <td id="two">cleaning</td>
+                <td id="two">Lobby</td>
+              </tr>
+          
+          </table>
+    
+          <table id="weekly3">
+              <tr id="one">
+                  <th id="two">Month Mar</th>
+                  <th id="two">Guest Full Name</th>
+                  <th id="two">Room No.</th>
+                  <th id="two">All Guests</th>
+                  <th id="two">Total</th>
+                </tr>
+                <tr id="one">
+                  <td id="two">Week 1</td>
+                  <td id="two">Yu Tao</td>
+                  <td id="two">0001</td>
+                  <td id="two">cleaning</td>
+                  <td id="two">Lobby</td>
+                </tr>
+                <tr id="one">
+                  <td id="two">Week 2</td>
+                  <td id="two">Yu Tao Chang</td>
+                  <td id="two">0002</td>
+                  <td id="two">cleaning</td>
+                  <td id="two">Lobby</td>
+                </tr>
+                <tr id="one">
+                  <td id="two">Week 3</td>
+                  <td id="two">Yu Tao Mendel</td>
+                  <td id="two">0003</td>
+                  <td id="two">cleaning</td>
+                  <td id="two">Lobby</td>
+                </tr>
+                <tr id="one">
+                  <td id="two">Week 4</td>
+                  <td id="two">Yu Tao Bennett</td>
+                  <td id="two">0004</td>
+                  <td id="two">cleaning</td>
+                  <td id="two">Lobby</td>
+                </tr>
+            </table>
+    
+            <table id="weekly4">
+                <tr id="one">
+                    <th id="two">Month Apr</th>
+                    <th id="two">Guest Full Name</th>
+                    <th id="two">Room No.</th>
+                    <th id="two">All Guests</th>
+                    <th id="two">Total</th>
+                  </tr>
+                  <tr id="one">
+                    <td id="two">Week 1</td>
+                    <td id="two">Yu Tao</td>
+                    <td id="two">0001</td>
+                    <td id="two">cleaning</td>
+                    <td id="two">Lobby</td>
+                  </tr>
+                  <tr id="one">
+                    <td id="two">Week 2</td>
+                    <td id="two">Yu Tao Chang</td>
+                    <td id="two">0002</td>
+                    <td id="two">cleaning</td>
+                    <td id="two">Lobby</td>
+                  </tr>
+                  <tr id="one">
+                    <td id="two">Week 3</td>
+                    <td id="two">Yu Tao Mendel</td>
+                    <td id="two">0003</td>
+                    <td id="two">cleaning</td>
+                    <td id="two">Lobby</td>
+                  </tr>
+                  <tr id="one">
+                    <td id="two">Week 4</td>
+                    <td id="two">Yu Tao Bennett</td>
+                    <td id="two">0004</td>
+                    <td id="two">cleaning</td>
+                    <td id="two">Lobby</td>
+                  </tr>
+              </table>
+
+
+
+              <table id="weekly5">
+                  <tr id="one">
+                      <th id="two">Month May</th>
+                      <th id="two">Guest Full Name</th>
+                      <th id="two">Room No.</th>
+                      <th id="two">All Guests</th>
+                      <th id="two">Total</th>
+                  </tr>
+                  <tr id="one">
+                    <td id="two">Week 1</td>
+                    <td id="two">Yu Tao</td>
+                    <td id="two">0001</td>
+                    <td id="two">cleaning</td>
+                    <td id="two">Lobby</td>
+                  </tr>
+                  <tr id="one">
+                    <td id="two">Week 2</td>
+                    <td id="two">Yu Tao Chang</td>
+                    <td id="two">0002</td>
+                    <td id="two">cleaning</td>
+                    <td id="two">Lobby</td>
+                  </tr>
+                  <tr id="one">
+                    <td id="two">Week 3</td>
+                    <td id="two">Yu Tao Mendel</td>
+                    <td id="two">0003</td>
+                    <td id="two">cleaning</td>
+                    <td id="two">Lobby</td>
+                  </tr>
+                  <tr id="one">
+                    <td id="two">Week 4</td>
+                    <td id="two">Yu Tao Bennett</td>
+                    <td id="two">0004</td>
+                    <td id="two">cleaning</td>
+                    <td id="two">Lobby</td>
+                  </tr>
+                
+                </table>
+            
+            
+            
+                <table id="weekly6">
+                    <tr id="one">
+                        <th id="two">Month Jun</th>
+                        <th id="two">Guest Full Name</th>
+                        <th id="two">Room No.</th>
+                        <th id="two">All Guests</th>
+                        <th id="two">Total</th>
+                      </tr>
+                      <tr id="one">
+                        <td id="two">Week 1</td>
+                        <td id="two">Yu Tao</td>
+                        <td id="two">0001</td>
+                        <td id="two">cleaning</td>
+                        <td id="two">Lobby</td>
+                      </tr>
+                      <tr id="one">
+                        <td id="two">Week 2</td>
+                        <td id="two">Yu Tao Chang</td>
+                        <td id="two">0002</td>
+                        <td id="two">cleaning</td>
+                        <td id="two">Lobby</td>
+                      </tr>
+                      <tr id="one">
+                        <td id="two">Week 3</td>
+                        <td id="two">Yu Tao Mendel</td>
+                        <td id="two">0003</td>
+                        <td id="two">cleaning</td>
+                        <td id="two">Lobby</td>
+                      </tr>
+                      <tr id="one">
+                        <td id="two">Week 4</td>
+                        <td id="two">Yu Tao Bennett</td>
+                        <td id="two">0004</td>
+                        <td id="two">cleaning</td>
+                        <td id="two">Lobby</td>
+                      </tr>
+                  
+                  </table>
+            
+                  <table id="weekly7">
+                      <tr id="one">
+                          <th id="two">Month Jul</th>
+                          <th id="two">Guest Full Name</th>
+                          <th id="two">Room No.</th>
+                          <th id="two">All Guests</th>
+                          <th id="two">Total</th>
+                        </tr>
+                        <tr id="one">
+                          <td id="two">Week 1</td>
+                          <td id="two">Yu Tao</td>
+                          <td id="two">0001</td>
+                          <td id="two">cleaning</td>
+                          <td id="two">Lobby</td>
+                        </tr>
+                        <tr id="one">
+                          <td id="two">Week 2</td>
+                          <td id="two">Yu Tao Chang</td>
+                          <td id="two">0002</td>
+                          <td id="two">cleaning</td>
+                          <td id="two">Lobby</td>
+                        </tr>
+                        <tr id="one">
+                          <td id="two">Week 3</td>
+                          <td id="two">Yu Tao Mendel</td>
+                          <td id="two">0003</td>
+                          <td id="two">cleaning</td>
+                          <td id="two">Lobby</td>
+                        </tr>
+                        <tr id="one">
+                          <td id="two">Week 4</td>
+                          <td id="two">Yu Tao Bennett</td>
+                          <td id="two">0004</td>
+                          <td id="two">cleaning</td>
+                          <td id="two">Lobby</td>
+                        </tr>
+                    </table>
+            
+                    <table id="weekly8">
+                        <tr id="one">
+                            <th id="two">Month Aug</th>
+                            <th id="two">Guest Full Name</th>
+                            <th id="two">Room No.</th>
+                            <th id="two">All Guests</th>
+                            <th id="two">Total</th>
+                          </tr>
+                          <tr id="one">
+                            <td id="two">Week 1</td>
+                            <td id="two">Yu Tao</td>
+                            <td id="two">0001</td>
+                            <td id="two">cleaning</td>
+                            <td id="two">Lobby</td>
+                          </tr>
+                          <tr id="one">
+                            <td id="two">Week 2</td>
+                            <td id="two">Yu Tao Chang</td>
+                            <td id="two">0002</td>
+                            <td id="two">cleaning</td>
+                            <td id="two">Lobby</td>
+                          </tr>
+                          <tr id="one">
+                            <td id="two">Week 3</td>
+                            <td id="two">Yu Tao Mendel</td>
+                            <td id="two">0003</td>
+                            <td id="two">cleaning</td>
+                            <td id="two">Lobby</td>
+                          </tr>
+                          <tr id="one">
+                            <td id="two">Week 4</td>
+                            <td id="two">Yu Tao Bennett</td>
+                            <td id="two">0004</td>
+                            <td id="two">cleaning</td>
+                            <td id="two">Lobby</td>
+                          </tr>
+                      </table>
+
+                      <table id="weekly9">
+                          <tr id="one">
+                              <th id="two">Month Sep</th>
+                              <th id="two">Guest Full Name</th>
+                              <th id="two">Room No.</th>
+                              <th id="two">All Guests</th>
+                              <th id="two">Total</th>
+                            </tr>
+                            <tr id="one">
+                              <td id="two">Week 1</td>
+                              <td id="two">Yu Tao</td>
+                              <td id="two">0001</td>
+                              <td id="two">cleaning</td>
+                              <td id="two">Lobby</td>
+                            </tr>
+                            <tr id="one">
+                              <td id="two">Week 2</td>
+                              <td id="two">Yu Tao Chang</td>
+                              <td id="two">0002</td>
+                              <td id="two">cleaning</td>
+                              <td id="two">Lobby</td>
+                            </tr>
+                            <tr id="one">
+                              <td id="two">Week 3</td>
+                              <td id="two">Yu Tao Mendel</td>
+                              <td id="two">0003</td>
+                              <td id="two">cleaning</td>
+                              <td id="two">Lobby</td>
+                            </tr>
+                            <tr id="one">
+                              <td id="two">Week 4</td>
+                              <td id="two">Yu Tao Bennett</td>
+                              <td id="two">0004</td>
+                              <td id="two">cleaning</td>
+                              <td id="two">Lobby</td>
+                            </tr>
+                        </table>
+
+                        <table id="weekly10">
+                            <tr id="one">
+                                <th id="two">Month Oct</th>
+                                <th id="two">Guest Full Name</th>
+                                <th id="two">Room No.</th>
+                                <th id="two">All Guests</th>
+                                <th id="two">Total</th>
+                              </tr>
+                              <tr id="one">
+                                <td id="two">Week 1</td>
+                                <td id="two">Yu Tao</td>
+                                <td id="two">0001</td>
+                                <td id="two">cleaning</td>
+                                <td id="two">Lobby</td>
+                              </tr>
+                              <tr id="one">
+                                <td id="two">Week 2</td>
+                                <td id="two">Yu Tao Chang</td>
+                                <td id="two">0002</td>
+                                <td id="two">cleaning</td>
+                                <td id="two">Lobby</td>
+                              </tr>
+                              <tr id="one">
+                                <td id="two">Week 3</td>
+                                <td id="two">Yu Tao Mendel</td>
+                                <td id="two">0003</td>
+                                <td id="two">cleaning</td>
+                                <td id="two">Lobby</td>
+                              </tr>
+                              <tr id="one">
+                                <td id="two">Week 4</td>
+                                <td id="two">Yu Tao Bennett</td>
+                                <td id="two">0004</td>
+                                <td id="two">cleaning</td>
+                                <td id="two">Lobby</td>
+                              </tr>
+                          </table>
+    
+                        -->
+    </body>
+
+

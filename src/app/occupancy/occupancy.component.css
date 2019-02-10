@@ -1,0 +1,106 @@
+.container{
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+h1{
+    margin-left: 300px;
+}
+
+.button1 {
+    background-color: rgb(168, 175, 168); /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 190%;
+  }
+
+
+  #one, #two {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+  }
+
+  #daily{
+    margin-left: 000px;
+}
+
+#daily2{
+    margin-left: 550px;
+    margin-top: -426px;
+}
+
+#daily3{
+
+    margin-top: 15px;
+}
+
+#daily4{
+    margin-left: 550px;
+    margin-top: -425px;
+}
+
+#weekly{
+
+}
+
+#weekly2{
+    margin-left: 550px;
+    margin-top: -200px;
+
+}
+
+#weekly3{
+    
+    margin-top: 15px;
+}
+
+#weekly4{
+    margin-left: 550px;
+    margin-top: -200px;
+}
+
+#weekly5{
+    margin-top: 10px;
+}
+
+#weekly6{
+    margin-left: 550px;
+    margin-top: -200px;
+
+}
+
+#weekly7{
+
+    margin-top: 15px;
+}
+
+#weekly8{
+    margin-left: 550px;
+    margin-top: -200px;
+}
+
+
+
+
+
+
+
+
+#h2{
+    margin-top: 100px;
+}
+
+#h22{
+    margin-left: 600px;
+    margin-top: -300px;
+}
+
+

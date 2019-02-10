@@ -1,0 +1,115 @@
+
+<h1>Schedule for Housekeeping</h1>
+
+<div class="container">
+
+<div>
+
+  <form action="/housekeeping" method="POST">
+  <table>
+    
+    <tr>
+      <td> Date: </td>
+      <td><input type="text" placeholder="DD/MM/YYYY" name="date" style="width:140px" /></td>
+    </tr>
+    <br>
+    <tr>
+      <td>Staff Full Name:</td>
+      <td><input type="text" placeholder="E.g. Syazbaran Ponnambalam" name="staffname" style="width:340px"/></td>
+    </tr>
+    <br>
+    <tr>
+      <td>Staff ID:</td>
+      <td><input type="text" placeholder="E.g. 1706412" name="staffid" style="width:140px"/></td>
+    </tr>
+    <br>
+    <tr>
+      <td>Allocate Duties:</td>
+      <td><select id="duties" style="width:100px" >
+          <option value="volvo">Cleaning</option>
+          <option value="saab">Monitorting</option>
+          <option value="fiat">Supervising</option>
+          <option value="audi">Guarding</option>
+          <option value="audi">Checking</option>
+        </select></td>
+    </tr>
+    <br>
+    <tr>
+      <td>Section:</td>
+      <td><select id="section" style="width:100px" >
+          <option value="volvo">Lobby</option>
+          <option value="saab">Top Floor</option>
+          <option value="fiat">Ground Floor</option>
+          <option value="audi">Everywhere</option>
+          <option value="audi">Outside</option>
+          <option value="audi">Reception Hall</option>
+        </select></td>
+    </tr>
+    <br>
+
+    <p><button type="submit">Submit</button></p>
+  </table>
+  </form>
+
+</div>
+</div>
+<br>
+<body>
+<br>
+<br>
+
+    <h2>Assigned Housekeeping Tasks</h2>
+    
+    <table>
+      <tr id="one">
+        <th id="two">Date</th>
+        <th id="two">Staff Full Name</th>
+        <th id="two">Staff ID</th>
+        <th id="two">Allocated Duties</th>
+        <th id="two">Section</th>
+      </tr>
+      <tr id="one">
+        <td id="two">01/01/2019</td>
+        <td id="two">Francis Tang</td>
+        <td id="two">0001</td>
+        <td id="two">Cleaning</td>
+        <td id="two">Lobby</td>
+      </tr>
+      <tr id="one">
+        <td id="two">04/0/2019</td>
+        <td id="two">Joey Tribbiani</td>
+        <td id="two">0002</td>
+        <td id="two">Cleaning</td>
+        <td id="two">Top Floor</td>
+      </tr>
+      <tr id="one">
+        <td id="two">11/01/2019</td>
+        <td id="two">Barnabas Stinson</td>
+        <td id="two">0003</td>
+        <td id="two">Monitoring</td>
+        <td id="two">Outside</td>
+      </tr>
+      <tr id="one">
+        <td id="two">06/01/2019</td>
+        <td id="two">Yu Tao Bennett</td>
+        <td id="two">0004</td>
+        <td id="two">Guarding</td>
+        <td id="two">Outside</td>
+      </tr>
+      <tr id="one">
+        <td id="two">21/01/2019</td>
+        <td id="two">Miguel Tannamuri</td>
+        <td id="two">0005</td>
+        <td id="two">Cleaning</td>
+        <td id="two">Lobby</td>
+      </tr>
+      <tr id="one">
+        <td id="two">01/01/2019</td>
+        <td id="two">Syazbaran Ponnambalam</td>
+        <td id="two">1706</td>
+        <td id="two">Supervising</td>
+        <td id="two">Lobby</td>
+      </tr>
+    </table>
+    
+    </body>
