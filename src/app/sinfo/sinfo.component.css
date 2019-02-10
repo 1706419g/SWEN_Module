@@ -1,0 +1,64 @@
+.container{
+    margin-top:30px;
+    padding:10px;
+    background-color: #ecececc4;
+    border-radius: 10px 10px 10px 10px 
+}
+
+.container2{
+    padding-top:30px;
+}
+
+input{
+    border-radius: 5px 5px 5px 5px 
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border-bottom: 1px solid #ddd;   
+    text-align: left;
+    padding: 8px;
+  }
+
+  .td1, .th1 {
+    border-bottom: 1px solid #ddd;   
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #ddddddc4;
+  }
+
+  .form-inline {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+  
+  /* Add some margins for each label */
+  .form-inline label {
+    margin: 5px 10px 5px 0;
+  }
+  
+  /* Style the input fields */
+  .form-inline input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  /* Style the submit button */
+  .form-inline button {
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
+    color: white;
+  }

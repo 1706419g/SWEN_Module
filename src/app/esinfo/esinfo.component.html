@@ -1,0 +1,170 @@
+<h1 style="margin-top:20px">Staff management and Housekeeping</h1>
+<hr>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog modal-md">
+        <div class="modal-content">
+          <div class="modal-header">
+           <h4 class="modal-title">Edit Staff Info</h4>
+          </div>
+          <div class="modal-body">
+            <div class = "container">
+              <form>
+                  <b>ID:</b><br>
+                  <input type="text" name="firstname" value="62732" style="width:85%">
+                  <br>
+                  <br>
+                  <b>Name:</b><br>
+                  <input type="text" name="firstname" value="Sally Mar" style="width:85%">
+                  <br>
+                  <br>
+                  <b>Citizenship:</b><br>
+                  <input type="text" name="firstname" value="Singaporean" style="width:85%;">
+                  <br>
+                  <br>
+                  <b>Duty:</b><br>
+                  <input type="text" name="firstname" value="Room Maintenence" style="width:85%;">
+                  <br>
+                  <br>
+                  <b>Date of Birth:</b><br>
+                  <input type="text" name="firstname" value="10/10/1950" style="width:85%;">
+                  <br>
+                  <br>
+                  <b>Bank No:</b><br>
+                  <input type="text" name="firstname" value="121-13412-5" style="width:85%;">
+                  <br>
+                  <br>
+                  <b>Address:</b><br>
+                  <input type="text" name="firstname" value="11 Riverdale #09-53" style="width:85%;">
+                  <br>
+                  <br>
+                  <b>Contact No:</b><br>
+                  <input type="text" name="firstname" value="8232 3241" style="width:85%;">
+                  <br>
+                  <br>
+                  <button type="button" class="btn btn-primary" (click)="updateStaff()" style="margin-top:5px ; margin-right:20px ; width:100%">Save Changes</button> 
+                </form> 
+          </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+    
+
+<div class="container">
+<div class="row2">
+    <div class="column" style="background-color:#ccc;">
+      <h4>Logged in Under</h4>
+      <hr>
+      <div class="container" style="background-color:rgb(231, 231, 231)">
+      <p style="font-size:20px">Name: Eric Tan <br> Employee ID: 123823 <br>Position: HR Manager</p>
+      <p style="font-size:20px"></p>
+      <p style="font-size:20px"></p>
+    </div>
+    </div>
+    <div class="column" style="background-color:#ccc">
+      <h4>Add new Staff</h4>
+      <hr>
+          <div class = "column2 left">
+              <form>
+                ID:<br>
+                <input type="text" name="firstname" placeholder="" style="width:85%">
+                <br>
+                Citizenship:<br>
+                <input type="text" name="firstname" placeholder="" style="width:85%">
+                <br>
+                Duty:<br>
+                <input type="text" name="firstname" placeholder="" style="width:85%">
+                <br>
+                Date of birth:<br>
+                <input type="text" name="firstname" placeholder="" style="width:85%">
+                <br><br>
+              </form> 
+          </div>
+          <div class = "column2 right">
+              <form>
+                  Name:<br>
+                  <input type="text" name="firstname" placeholder="" style="width:85%">
+                  <br>
+                  Address:<br>
+                  <input type="text" name="firstname" placeholder="" style="width:85%">
+                  <br>
+                  Contact:<br>
+                  <input type="text" name="firstname" placeholder="" style="width:85%">
+                  <br>
+                  Bank No:<br>
+                  <input type="text" name="firstname" placeholder="" style="width:85%">
+                  <br>
+                  <button type="button" class="btn btn-primary" (click)="addStaff()" style="margin-top:5px ; margin-right:20px ;">Add staff</button> 
+                </form> 
+          </div>
+    </div>
+    <div class="column" style="background-color:rgb(233, 233, 233);border-style: solid; border-width: 1px; border-color: #ccc">
+      <h4>Record Logs</h4>
+      <hr>
+      <table>
+          <tr *ngFor="let log of logs">
+            <td style="font-size: 12px ; text-align: center">Log ID<br>{{log.id}}</td>
+            <td style="font-size: 12px ; text-align: center">{{log.desc}}</td>
+            <td style="font-size: 12px ; text-align: center"><a href="">Details</a></td>
+            <td style="font-size: 12px ; text-align: center">{{log.date}}<br>{{log.time}}</td>
+          </tr>
+        </table>
+        <br>
+        <br>
+        <br>
+        <a href="" style="float:right">Show Full Log</a>
+    </div>
+</div>
+
+
+
+
+<div class="container3">
+  <h2>Filter</h2>
+<form class="form-inline">
+  <input type="email" id="email" placeholder="ID" name="email" style="width:7%">
+  <input type="email" id="email" placeholder="Name" name="email" style="width:12.5%">
+  <input type="email" id="email" placeholder="Citizenship" name="email" style="width:10%">
+  <input type="email" id="email" placeholder="Duty" name="email" style="width:12.5%">
+  <input type="email" id="email" placeholder="DOB" name="email" style="width:10%">
+  <input type="email" id="email" placeholder="Bank No." name="email" style="width:12.5%">
+  <input type="email" id="email" placeholder="Address" name="email" style="width:16%">
+  <input type="email" id="email" placeholder="Contact No." name="email" style="width:10%">
+</form> 
+</div>
+
+<div class="container2">
+<table>
+    <tr>
+      <th></th>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Citizenship</th>
+      <th>Duty</th>
+      <th>Date of Birth</th>
+      <th>Bank No.</th>
+      <th>Address</th>
+      <th>Contact</th>
+      <th></th>
+    </tr>
+    <tr *ngFor="let staff of staffs">
+      <td><a href="" data-toggle="modal" data-target="#myModal" >Edit</a></td>
+      <td>{{staff.id}}</td>
+      <td>{{staff.name}}</td>
+      <td>{{staff.citi}}</td>
+      <td>{{staff.duty}}</td>
+      <td>{{staff.dob}}</td>
+      <td>{{staff.bank}}</td>
+      <td>{{staff.add}}</td>
+      <td>{{staff.cont}}</td>
+      <td><button type="button" (click)="deleteStaff()"class="btn btn-danger">x</button></td>
+    </tr>
+  </table>
+  
+  

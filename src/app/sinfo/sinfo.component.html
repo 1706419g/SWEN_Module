@@ -1,0 +1,47 @@
+
+<h1 style="margin-top:20px">Staff management and Housekeeping</h1>
+<hr>
+
+<div class="container">
+  <h2>Filter</h2>
+<form class="form-inline">
+  <input type="email" id="email" placeholder="ID" name="email" style="width:7%">
+  <input type="email" id="email" placeholder="Name" name="email" style="width:12.5%">
+  <input type="email" id="email" placeholder="Citizenship" name="email" style="width:10%">
+  <input type="email" id="email" placeholder="Duty" name="email" style="width:12.5%">
+  <input type="email" id="email" placeholder="DOB" name="email" style="width:10%">
+  <input type="email" id="email" placeholder="Bank No." name="email" style="width:12.5%">
+  <input type="email" id="email" placeholder="Address" name="email" style="width:16%">
+  <input type="email" id="email" placeholder="Contact No." name="email" style="width:10%">
+</form> 
+
+<br>
+</div>
+<button type="button" class="btn btn-default" routerLink="/esinfo" style="float:right"> Edit Staff Info </button>
+<div class="container2">
+
+<table>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Citizenship</th>
+      <th>Duty</th>
+      <th>Date of Birth</th>
+      <th>Bank No.</th>
+      <th>Address</th>
+      <th>Contact</th>
+    </tr>
+    <tr *ngFor="let staff of staffs">
+      <td>{{staff.id}}</td>
+      <td>{{staff.name}}</td>
+      <td>{{staff.citi}}</td>
+      <td>{{staff.duty}}</td>
+      <td>{{staff.dob}}</td>
+      <td>{{staff.bank}}</td>
+      <td>{{staff.add}}</td>
+      <td>{{staff.cont}}</td>
+    </tr>
+  </table>
+
+
+</div>
