@@ -1,0 +1,113 @@
+<!-- <div style="padding-top:100px; width: 100vw; text-align:center;">
+    <div class="container">
+            <div class="card" *ngFor="let post of results">
+                            <h4 class="card-title">{{post.name}}</h4>
+                            <p class="card-text">{{post.room}}</p> 
+            </div>
+    </div>
+</div> -->
+<br>
+<br>
+<div class="container1">
+    <h1>Room Occupants</h1>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="card">
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Room Number</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Number of Adult</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Number of Child</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Name of Adult</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Name of Child</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="col-sm">
+                <div class="card">
+                    <div class="card-body">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Room Number</th>
+                                    <th scope="col">Adult(s)</th>
+                                    <th scope="col">Children(s)</th>
+                                    <th scope="col">Adult_Name</th>
+                                    <th scope="col">Child_Name</th>
+                                    <th scope="col">Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>27</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>Mike Hennesen</td>
+                                    <td>Ben Hennesen</td>
+                                    <td>2</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>103</td>
+                                    <td>2</td>
+                                    <td>0</td>
+                                    <td>Glen Hancock, Tricia Hancock</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>656</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>Alex Hamilton, Eliza Hamilton</td>
+                                    <td>Philip Hamilton, John Hamilton</td>
+                                    <td>4</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+
+
+        <button type="button" class="btn btn-secondary btn-lg btn-block">Submit</button>
